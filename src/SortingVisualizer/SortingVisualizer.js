@@ -287,7 +287,7 @@ export default class SortingVisualizer extends React.Component {
             <a class="ui basic label" style={{ backgroundColor: "black", color: "white" }} href="https://github.com/RishabhSood">
               <i class="github icon"></i> RishabhSood
             </a>
-            <a class="ui icon button" href="https://github.com/RishabhSood/Sorting-Algorithms-Visualizer">
+            <a class="ui icon button" href="https://github.com/RishabhSood/sortingAlgosVisualizer">
               <i class="fork icon"></i>
             </a>
           </div>
