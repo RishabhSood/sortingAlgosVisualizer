@@ -1,0 +1,51 @@
+body{
+    overflow-y: hidden;
+}
+
+.array-container {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 40px;
+    transform: translateY(-50%);
+}
+
+.array-bar{
+    width: 4px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.rangeLabel{
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    color: turquoise;
+}
+
+button{
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+    background-color: turquoise;
+    border: 1px solid turquoise;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 5%;
+    color: white;
+    outline: none;
+}
+
+button:hover{
+    background-color: white;
+    color: turquoise;
+    border: 1px solid white;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+button::selection {
+    border: 1px solid turquoise;
+}
