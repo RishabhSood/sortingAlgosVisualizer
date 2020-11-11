@@ -37,17 +37,26 @@
             display: block !important;
           }
       }
+      @media screen and (max-height: 650px) {
+          .root {
+              display: none !important;
+          }
+          .error-container {
+            display: block !important;
+          }
+      }
     </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root" class="root"></div>
+    
     <div className="error-container ui placeholder segment" display="none" style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: turquoise">
         <div class="ui icon header">
             <h1><i class="massive exclamation triangle icon"></i></h1>
             <br />
             Screen Resolution Not Supported ! <br />
-            Try with 1200px+ width
+            (All resolutions above 1200x650 are supported)
         </div>
     </div>
     <!--
